@@ -1,7 +1,7 @@
 using System;
 namespace demo01
 {
-    public class Animal
+    public abstract class Animal
     {
         public string Name{get; set;}
         public int Age{get; set;}
@@ -12,9 +12,7 @@ namespace demo01
             this.Age = age;
         }  
 
-        public void sayHello(){
-            Console.WriteLine("Hello");
-        }
+        public abstract void sayHello();
 
     }
 }

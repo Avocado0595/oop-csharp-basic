@@ -5,7 +5,7 @@ namespace demo01
     {
         public Cat(){}
         public Cat(string name, int age):base(name,age){}
-        public void sayHello(){
+        public override void  sayHello(){
             Console.WriteLine("I'm a cat!");
         }
     }
