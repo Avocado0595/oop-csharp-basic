@@ -3,20 +3,14 @@ namespace demo01
 {
     public class Animal
     {
-        private string name;
-        private int age;
+        public string Name{get; set;}
+        public int Age{get; set;}
 
         public Animal(){}
         public Animal(string name, int age){
-            this.name = name;
-            this.age = age;
-        }
-        public void setName(string name){
-            this.name = name;
-        }
-        public string getName(){
-            return this.name;
-        }
+            this.Name = name;
+            this.Age = age;
+        }  
 
         public void sayHello(){
             Console.WriteLine("Hello");

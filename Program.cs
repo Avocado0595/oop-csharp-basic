@@ -10,7 +10,6 @@ namespace demo01
             animal1.sayHello();
             Cat cat1 = new Cat("Tom",2);
             cat1.sayHello();
-
         }
     }
 }
